@@ -1,9 +1,9 @@
 <?php
 // db.php
 $host = 'localhost'; // O el nombre del servicio en Docker (ej: 'db')
-$db   = 'gamefest';
-$user = 'root';      // O tu usuario configurado
-$pass = '';          // O tu contraseña configurada
+$db   = 'dw2t_francisco';
+$user = 'dw2t_francisco';      // O tu usuario configurado
+$pass = '12345';          // O tu contraseña configurada
 
 $mysqli = new mysqli($host, $user, $pass, $db);
 
